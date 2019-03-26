@@ -18,5 +18,6 @@ defmodule ProjectManagementWeb.Router do
      pipe_through :api
 
      resources "/projects", ProjectController
+     resources "/documents", DocumentController
    end
 end
