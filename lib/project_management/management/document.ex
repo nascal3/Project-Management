@@ -6,7 +6,7 @@ defmodule ProjectManagement.Management.Document do
     belongs_to :project, ProjectManagement.Management.Project
     field :name, :string
     field :content, :string
-    field :veiw_count, :integer
+    field :view_count, :integer
     field :published, :boolean
 
     timestamps()
